@@ -16,4 +16,8 @@ describe('function fizzBuzz', function () {
     let result = fizzBuzz(1)
     result.should.be.equal(1)
   })
+  it('if input str cannot, return str', function () {
+    let result = fizzBuzz('abc')
+    result.should.be.equal('abc')
+  })
 })
